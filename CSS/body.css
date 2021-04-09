@@ -11,7 +11,7 @@
   display: flex;
   border: 1px solid rgb(192, 14, 100);
   flex-direction: column;
-  justify-content: ; /* pendiente */
+  justify-content: center; /* a ver */
 }
 
 .SubtitleEquipo {
@@ -22,4 +22,64 @@
   color: var(--brand-color-aqua);
   margin-top: 30px;
   align-self: center;
+}
+.photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  margin-bottom: 15px;
+}
+.Text-Style {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+
+.Text-Style-6 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #099d8d;
+}
+
+.Text-Style-4 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.sectionBox {
+  width: 320px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.description {
+  margin-left: 15px;
+  margin-right: 15px;
 }
