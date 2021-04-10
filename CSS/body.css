@@ -32,18 +32,16 @@
   line-height: 1.5;
   text-align: center;
 }
-
 .ContainerFortDeb {
   width: 320px;
+  padding: 30px 15px 45px;
+  background-color: rgba(184, 184, 185, 0.2);
   display: flex;
   border: 1px solid rgb(192, 14, 100);
   flex-direction: column;
   align-items: center; /* a ver */
-  opacity: 0.2;
-  background-color: var(--brand-color-grisclaro);
   padding: 30px 15px 45px;
 }
-
 .photo {
   width: 180px;
   height: 180px;
