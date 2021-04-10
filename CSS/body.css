@@ -114,3 +114,23 @@
   margin-left: 15px;
   margin-right: 15px;
 }
+
+.aboutUsLinks {
+  color: var(--brand-color-bluegreen);
+  margin-top: 15px;
+  margin-bottom: 45px;
+  width: 124px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutUsLinks a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--brand-color-bluegreen);
+}
