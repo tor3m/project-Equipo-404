@@ -1,66 +1,63 @@
 :root {
-    --brand-p-color: #54585a;
-    --brand-color-black: black;
-    --brand-color-aqua: #14d9c4;
-    --brand-color-bluegreen: #099d8d;
-  }
+  --brand-p-color: #54585a;
+  --brand-color-black: black;
+  --brand-color-aqua: #14d9c4;
+  --brand-color-bluegreen: #099d8d;
+  --brand-color-grisclaro: #b8b8b9;
+}
 .containerheader {
-    width: 333px;
-    height: 435px;
-    display: flex;
-    box-sizing: border-box;
-    background-image: url(../IMG/laptop-336378__480.webp);
-    flex-direction: row;
-    justify-content: center;
-
+  width: 333px;
+  height: 435px;
+  display: flex;
+  box-sizing: border-box;
+  background-image: url(../IMG/laptop-336378__480.webp);
+  flex-direction: row;
+  justify-content: center;
 }
 .head {
-    width: 333px;
-    height: 60px;
-    background-color: var(--brand-color-bluegreen);
-    color: white;
-    opacity: 0.9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  width: 333px;
+  height: 60px;
+  background-color: var(--brand-color-bluegreen);
+  color: white;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu {
-    width: 333px;
-    height: 40px;
-    background-color: var(--brand-color-aqua);
-    color: white;
-    opacity: 0.9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 333px;
+  height: 40px;
+  background-color: var(--brand-color-aqua);
+  color: white;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer {
-    width: 333px;
-    height: 225px;
-    border: solid 1px gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;        
-    
+  width: 333px;
+  height: 225px;
+  border: solid 1px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .copy {
-   display: flex;
-   justify-content: center;
-   border: solid 1px gray;
+  display: flex;
+  justify-content: center;
+  border: solid 1px gray;
 }
 .menu3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px gray;
 }
 
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px gray; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px gray;
 }
-

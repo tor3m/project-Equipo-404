@@ -9,7 +9,6 @@
 .ContainerEquipo {
   width: 320px;
   display: flex;
-  border: 1px solid rgb(192, 14, 100);
   flex-direction: column;
   align-items: center; /* a ver */
   padding: 30px 15px;
@@ -38,7 +37,6 @@
   padding: 30px 15px 45px;
   background-color: rgba(184, 184, 185, 0.2);
   display: flex;
-  border: 1px solid rgb(192, 14, 100);
   flex-direction: column;
   align-items: center; /* a ver */
   padding: 30px 15px 45px;
@@ -47,7 +45,7 @@
 .FortDebTitleStyle {
   font-family: Rubik;
   font-size: 22px;
-  line-height: 45px;
+  line-height: 2.05;
   color: var(--brand-color-bluegreen);
   align-self: center;
 }
