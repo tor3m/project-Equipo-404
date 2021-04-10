@@ -3,6 +3,7 @@
   --brand-color-black: black;
   --brand-color-aqua: #14d9c4;
   --brand-color-bluegreen: #099d8d;
+  --brand-color-grisclaro: #b8b8b9;
 }
 
 .ContainerEquipo {
@@ -11,6 +12,7 @@
   border: 1px solid rgb(192, 14, 100);
   flex-direction: column;
   align-items: center; /* a ver */
+  padding: 30px 15px;
 }
 
 .SubtitleEquipo {
@@ -19,18 +21,27 @@
   font-weight: 500;
   line-height: 45px;
   color: var(--brand-color-aqua);
-  margin-top: 30px;
   align-self: center;
 }
 
 .TeamParagraph {
   font-family: "Open Sans", sans-serif;
-  color: var (var(--brand-p-color))
+  color: var(--brand-p-color);
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
   text-align: center;
-  margin: 15px;
+}
+
+.ContainerFortDeb {
+  width: 320px;
+  display: flex;
+  border: 1px solid rgb(192, 14, 100);
+  flex-direction: column;
+  align-items: center; /* a ver */
+  opacity: 0.2;
+  background-color: var(--brand-color-grisclaro);
+  padding: 30px 15px 45px;
 }
 
 .photo {
