@@ -17,9 +17,11 @@
   background: white;
   width: 30px;
   height: 30px;
-  transform: translate(500%, 50%) rotate(45deg);
+  position: absolute;
+  top: -15px;
+  transform: rotate(45deg);
   position: relative;
-  z-index: 999;
+  z-index: 99;
 }
 
 .SubtitleEquipo {
@@ -42,12 +44,11 @@
 
 .ContainerFortDeb {
   width: 320px;
-  padding: 30px 15px 45px;
   background-color: rgba(184, 184, 185, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center; /* a ver */
-  padding: 30px 15px 45px;
+  padding: 0px 15px 45px;
   position: relative;
 }
 
