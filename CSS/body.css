@@ -13,16 +13,6 @@
   align-items: center;
   padding: 30px 15px;
 }
-.caja {
-  background: white;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: -15px;
-  transform: rotate(45deg);
-  position: relative;
-  z-index: 99;
-}
 
 .SubtitleEquipo {
   font-family: "Rubik", sans-serif;
@@ -49,7 +39,17 @@
   flex-direction: column;
   align-items: center; /* a ver */
   padding: 0px 15px 45px;
+}
+
+.caja {
+  background: white;
+  width: 30px;
+  height: 30px;
   position: relative;
+  top: -15px;
+  transform: rotate(45deg);
+  position: relative;
+  z-index: 99;
 }
 
 .FortDebTitleStyle {
