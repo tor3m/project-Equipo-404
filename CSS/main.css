@@ -191,3 +191,39 @@ a:hover,
 a:active {
   color: var(--brand-color-bluegreen);
 }
+
+.footer {
+  width: 320px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  line-height: 1.43;
+}
+.copy {
+  width: 172px;
+  height: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: var(--brand-color-grisclaro);
+  font-size: 14px;
+  line-height: 1.43;
+}
+.navigation2 {
+  width: 114px;
+  height: 60px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--brand-p-color);
+  opacity: 0.75;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+}
+.image {
+  width: 115px;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+}
