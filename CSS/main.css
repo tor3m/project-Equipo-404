@@ -5,3 +5,63 @@
   --brand-color-bluegreen: #099d8d;
   --brand-color-grisclaro: #b8b8b9;
 }
+.hero {
+  width: 320px;
+  height: 421px;
+  background-image: url(../IMG/laptop-336378__480.webp);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding: 0 0 316px;
+  /*width: 100%;
+  max-width: 333px;
+  min-width: 150px
+  width: 100vw;*/
+  /*height: 100%;
+  height:100vh;*/
+  /*justify-content: flex-start;*/
+}
+.head {
+  width: 320px;
+  height: 60px;
+  padding: 15px 80px;
+  margin: auto;
+  background-color: var(--brand-color-bluegreen);
+  color: white;
+  opacity: 0.9;
+  /*width: 100%;
+  height: 60px;*/
+}
+
+.navigation1 {
+  width: 320px;
+  height: 45px;
+  background-color: var(--brand-color-aqua);
+  color: white;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*width: 100%;
+  height: 40px;*/
+}
+.boxslogan {
+  /*box-sizing: border-box;*/
+  background: white;
+  width: 290px;
+  height: 80px;
+  position: relative;
+  top: -35px;
+  position: relative;
+  z-index: 99;
+  /*border: 5px solid grey;*/
+  line-height: 25px;
+  font-size: 18px;
+  right: -15px;
+  text-align: center;
+  padding: 30px 15px;
+  color: var(--brand-color-black);
+  font-family: "Open Sans", sans-serif; /*hay que cambiarlo por la semibold*/
+}
