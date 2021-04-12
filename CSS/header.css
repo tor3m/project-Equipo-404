@@ -8,8 +8,8 @@
 .hero {
   width: 320px;
   height: 421px;
-  display: flex;
   background-image: url(../IMG/laptop-336378__480.webp);
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
