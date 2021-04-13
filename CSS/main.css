@@ -323,6 +323,36 @@ a:active {
     height: 12.81rem;
     margin-bottom: 15px;
   }
+
+  .footer {
+    flex-direction: row-reverse;
+    align-items: space-between;
+  }
+
+  .navigation2 {
+    order: -1;
+    text-align: right;
+    line-height: 2.14rem;
+    /* width: 9.38rem;
+    height: 6.25rem;*/
+  }
+  .copylogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.81rem;
+  }
+  .copy {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: var(--brand-color-grisclaro);
+    font-size: 0.88rem;
+    line-height: 1.43;
+  }
+  .image {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /*Desktop Version*/
