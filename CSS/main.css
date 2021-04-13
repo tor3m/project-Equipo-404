@@ -63,12 +63,11 @@
   text-align: center;
   padding: 1.87rem 0.94rem;
   color: var(--brand-color-black);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
-
 }
 .ContainerEquipo {
-  width: 20rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,7 +92,7 @@
   text-align: center;
 }
 .ContainerFortDeb {
-  width: 20rem;
+  width: 100%;
   background-color: rgba(184, 184, 185, 0.2);
   display: flex;
   flex-direction: column;
@@ -133,8 +132,7 @@
   line-height: 1.88;
   letter-spacing: normal;
   text-align: center;
-  color: #099d8d;
-  /*cambiar color a variable*/
+  color: var(--brand-color-bluegreen);
 }
 
 .Text-Style-4 {
@@ -146,11 +144,11 @@
   line-height: 2.25;
   letter-spacing: normal;
   text-align: center;
-  color: #000000;
+  color: var(--brand-color-black);
 }
 
 .ContainerAboutUs {
-  width: 20rem;
+  width: 100%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -230,3 +228,73 @@ a:active {
   display: flex;
   justify-content: space-around;
 }
+
+/* tablet version */
+
+@media all and (min-width: 48rem) {
+  .ContainerEquipo {
+    width: 100%;
+    padding: 1.87rem 2.81rem;
+  }
+
+  .ContainerFortDeb {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+  }
+
+  .Fortalezas {
+    width: 50%;
+    padding-right: 1.88rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .Debilidades {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja {
+    position: absolute;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ContainerAboutUs {
+    width: 100%;
+  }
+
+  .aboutUsTitle {
+    margin-top: 2.81rem;
+  }
+
+  .TeamMember {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2.75rem;
+  }
+
+  .MemberDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.93rem;
+  }
+  .aboutUsDescription {
+    text-align: left;
+    margin: 0;
+  }
+  .aboutUsPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 12.81rem;
+    height: 12.81rem;
+    margin-bottom: 15px;
+  }
+}
+
+/*Desktop Version*/
