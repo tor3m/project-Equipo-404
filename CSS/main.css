@@ -63,7 +63,9 @@
   text-align: center;
   padding: 1.87rem 0.94rem;
   color: var(--brand-color-black);
-  font-family: "Open Sans", sans-serif; /*hay que cambiarlo por la semibold*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+
 }
 .ContainerEquipo {
   width: 20rem;

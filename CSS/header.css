@@ -99,7 +99,12 @@
   text-align: center;
   padding:30px 15px;
   color: var(--brand-color-black);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
+  
+  
+
+  
+ 
 
 }
 /*VERSION TABLET*/
