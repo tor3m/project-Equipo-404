@@ -63,12 +63,11 @@
   text-align: center;
   padding: 1.87rem 0.94rem;
   color: var(--brand-color-black);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
-
 }
 .ContainerEquipo {
-  width: 20rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,11 +92,12 @@
   text-align: center;
 }
 .ContainerFortDeb {
-  width: 20rem;
+  width: 100%;
   background-color: rgba(184, 184, 185, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center; /* a ver */
+  text-align: center;
   padding: 0rem 0.94rem 2.8rem;
 }
 
@@ -133,8 +133,7 @@
   line-height: 1.88;
   letter-spacing: normal;
   text-align: center;
-  color: #099d8d;
-  /*cambiar color a variable*/
+  color: var(--brand-color-bluegreen);
 }
 
 .Text-Style-4 {
@@ -146,15 +145,25 @@
   line-height: 2.25;
   letter-spacing: normal;
   text-align: center;
-  color: #000000;
+  color: var(--brand-color-black);
 }
 
 .ContainerAboutUs {
-  width: 20rem;
+  width: 100%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.TeamMember {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MemberDetails {
+  text-align: center;
 }
 
 .aboutUsTitle {
@@ -177,14 +186,13 @@
 
 .aboutUsLinks {
   color: var(--brand-color-bluegreen);
-  margin-top: 0.94rem;
-  margin-bottom: 2.81rem;
+  padding-top: 0.94rem;
+  padding-bottom: 2.81rem;
   width: 7.75rem;
   height: 1.88rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 .aboutUsLinks a,
@@ -229,4 +237,122 @@ a:active {
   height: 2.81rem;
   display: flex;
   justify-content: space-around;
+}
+
+/* tablet version */
+
+@media all and (min-width: 48rem) {
+  .ContainerEquipo {
+    width: 100%;
+    padding: 1.87rem 2.81rem;
+  }
+
+  .ContainerFortDeb {
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+  }
+
+  .Fortalezas {
+    width: 50%;
+    padding-right: 1.88rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .Debilidades {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja {
+    position: absolute;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ContainerAboutUs {
+    width: 100%;
+  }
+
+  .aboutUsTitle {
+    margin-top: 2.81rem;
+  }
+
+  .TeamMember {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2.75rem;
+  }
+
+  .MemberDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.93rem;
+  }
+  .aboutUsDescription {
+    text-align: left;
+    margin: 0;
+  }
+  .aboutUsPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 12.81rem;
+    height: 12.81rem;
+    margin-bottom: 15px;
+  }
+}
+
+/*Desktop Version*/
+
+@media all and (min-width: 75rem) {
+  .ContainerEquipo {
+    width: 100%;
+    padding-top: 2.81rem;
+    padding-bottom: 3.75rem;
+    padding-left: 18.69rem;
+    padding-right: 18.75rem;
+  }
+  .ContainerFortDeb {
+    padding-top: 2.81rem;
+    padding-bottom: 3.75rem;
+    padding-left: 8.62rem;
+    padding-right: 8.68rem;
+  }
+  .Fortalezas {
+    padding-right: 2.81rem;
+  }
+  .ContainerAboutUs {
+    width: 100%;
+  }
+
+  .TeamMember {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8.62rem;
+    padding-bottom: 3.75rem;
+  }
+
+  .MemberDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2.81rem;
+  }
+  .aboutUsDescription {
+    text-align: left;
+    margin: 0;
+  }
+  .aboutUsPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 12.81rem;
+    height: 12.81rem;
+    margin-bottom: 15px;
+  }
 }
