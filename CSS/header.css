@@ -102,5 +102,22 @@
   font-family: "Open Sans", sans-serif;
 
 }
+/*VERSION TABLET*/
+@media all and (min-width:48rem) {
+  .hero {
+    flex-direction: row;
+  }
+  .navigation1{
+    background-color: var(--brand-color-bluegreen);
+    height: 3.75rem;
+    display: flex;
+    justify-content: space-around;
+    
+  }
 
+  .head {
+    font-size: 1rem;
+    line-height: 1.88rem;
+  }
+}
 
