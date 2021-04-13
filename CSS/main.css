@@ -305,12 +305,23 @@ a:active {
     padding: 2.75rem;
   }
 
+  .TeamMember.order2 {
+    flex-direction: row-reverse;
+  }
+
   .MemberDetails {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 1.93rem;
   }
+
+  .MemberDetails.order2 {
+    align-items: flex-end;
+    padding-right: 1.93rem;
+    text-align: right;
+  }
+
   .aboutUsDescription {
     text-align: left;
     margin: 0;
