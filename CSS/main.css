@@ -6,8 +6,7 @@
   --brand-color-grisclaro: #b8b8b9;
 }
 .hero {
-  width: 20rem;
-  height: 25.31rem;
+  width: 100%;
   background-image: url(../IMG/laptop-336378__480.webp);
   display: flex;
   flex-direction: column;
@@ -15,28 +14,20 @@
   text-align: center;
   font-family: "Rubik", sans-serif;
   padding: 0 0 19.75rem;
-  /*width: 100%;
-  max-width: 333px;
-  min-width: 150px
-  width: 100vw;*/
-  /*height: 100%;
-  height:100vh;*/
-  /*justify-content: flex-start;*/
 }
+
 .head {
-  width: 20rem;
+  width: 100%;
   height: 3.75rem;
   padding: 0.94rem 5rem;
   margin: auto;
   background-color: var(--brand-color-bluegreen);
   color: white;
   opacity: 0.9;
-  /*width: 100%;
-  height: 60px;*/
 }
 
 .navigation1 {
-  width: 20rem;
+  width: 100%;
   height: 2.81rem;
   background-color: var(--brand-color-aqua);
   color: white;
@@ -44,11 +35,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /*width: 100%;
-  height: 40px;*/
 }
+
 .boxslogan {
-  /*box-sizing: border-box;*/
   background: white;
   width: 18.13rem;
   height: 5rem;
@@ -66,6 +55,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
+
 .ContainerEquipo {
   width: 100%;
   display: flex;
