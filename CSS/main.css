@@ -199,14 +199,14 @@ a:active {
 }
 
 .footer {
-  width: 50%;
-  height: 15.63rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  line-height: 1.43;
+  padding: 1.87rem 0 2.81rem 0;
+  border-top: 1px solid var(--brand-color-grisclaro);
 }
 .copy {
   text-align: center;
@@ -225,7 +225,7 @@ a:active {
   line-height: 1.43;
   text-align: center;
 }
-.image {
+.logo-footer {
   width: 7.18rem;
   height: 2.81rem;
   display: flex;
