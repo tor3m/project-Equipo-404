@@ -15,12 +15,12 @@
   font-family: "Rubik", sans-serif;
   padding: 0 0 19.75rem;
 }
-/*.fixed {
+.fixed {
   position: fixed;
   top: 0;
   z-index: 100;
   width: 100%;
-}*/
+}
 
 .head {
   width: 100%;
