@@ -204,7 +204,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1.87rem 0 2.81rem 0;
   border-top: 1px solid var(--brand-color-grisclaro);
 }
@@ -214,22 +214,22 @@ a:active {
   color: var(--brand-color-grisclaro);
   font-size: 0.88rem;
   line-height: 1.43;
+  padding-bottom: 1.25rem;
 }
 .navigation2 {
-  width: 7.12rem;
-  height: 3.75rem;
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   color: var(--brand-p-color);
   opacity: 0.75;
   font-size: 0.88rem;
-  line-height: 1.43;
+  line-height: 1.25rem;
   text-align: center;
+  padding-bottom: 1.88rem;
 }
 .logo-footer {
-  width: 7.18rem;
-  height: 2.81rem;
+  width: 7.24rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /* tablet version */
