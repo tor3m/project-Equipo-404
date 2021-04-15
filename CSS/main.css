@@ -228,8 +228,6 @@ a:active {
 }
 .logo-footer {
   width: 7.24rem;
-  display: flex;
-  justify-content: center;
 }
 
 /* tablet version */
