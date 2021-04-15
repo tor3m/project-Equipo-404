@@ -15,6 +15,12 @@
   font-family: "Rubik", sans-serif;
   padding: 0 0 19.75rem;
 }
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
 
 .head {
   width: 100%;
@@ -24,6 +30,9 @@
   background-color: var(--brand-color-bluegreen);
   color: white;
   opacity: 0.9;
+  /*position: fixed;
+  top: 0;
+  z-index: 100;*/
 }
 
 .navigation1 {
@@ -35,6 +44,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /*position: fixed;
+  z-index: 100;*/
 }
 
 .boxslogan {
