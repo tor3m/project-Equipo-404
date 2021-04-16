@@ -8,27 +8,46 @@
 .hero {
   width: 100%;
   background-image: url(../IMG/laptop-336378__480.webp);
-  display: flex;
-  flex-direction: column;
   align-items: center;
   text-align: center;
   font-family: "Rubik", sans-serif;
   padding: 0 0 19.75rem;
 }
+
 .fixed {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   z-index:100;
+  color: white;
   width: 100%;
 }
 
+.header-height {
+  padding-top: 55px;
+  margin-top: -50px;
+}
+
+.navigation1 a:visited, 
+.navigation1 a:hover, 
+.navigation1 a:link, 
+.navigation1 a:active{
+    color: white;
+}
+/*.navigation1 a{
+  color: white;
+}
+.navigation1 a:hover{
+  color: red;
+}
+.navigation1 a:visited{
+  color: green;
+}*/
 .head {
-  width: 100%;
   height: 3.75rem;
   padding: 0.94rem 5rem;
-  margin: auto;
   background-color: var(--brand-color-bluegreen);
-  color: white;
   opacity: 0.9;
   /*position: fixed;
   top: 0;
@@ -36,10 +55,8 @@
 }
 
 .navigation1 {
-  width: 100%;
   height: 2.81rem;
   background-color: var(--brand-color-aqua);
-  color: white;
   opacity: 0.9;
   display: flex;
   justify-content: space-around;
@@ -237,6 +254,14 @@ a:active {
   text-align: center;
   padding-bottom: 1.88rem;
 }
+
+.navigation2 a:visited, 
+.navigation2 a:hover, 
+.navigation2 a:link, 
+.navigation2 a:active{ 
+  color: var(--brand-p-color);
+}
+
 .logo-footer {
   width: 7.24rem;
 }
@@ -244,10 +269,9 @@ a:active {
 /* tablet version */
 
 @media all and (min-width: 48rem) {
-  .hero {
+  .fixed{
     flex-direction: row;
   }
-
   .head {
     font-size: 1rem;
     line-height: 1.88rem;
@@ -259,9 +283,16 @@ a:active {
     background-color: var(--brand-color-bluegreen);
     height: 3.75rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     padding-right: 1.88rem;
+    flex-grow:1;
   }
+
+.navigation1 li 
+{
+padding: 0 20px;
+
+}
 
   .boxslogan {
     width: 27.56rem;
