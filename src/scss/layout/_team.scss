@@ -11,13 +11,13 @@
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2.8rem;
-  color: var(--brand-color-aqua);
+  color: $brandcoloraqua;
   align-self: center;
 }
 
 .HomeParagraph {
   font-family: "Open Sans", sans-serif;
-  color: var(--brand-p-color);
+  color: $paragraphgray;
   font-size: 1rem;
   line-height: 1.5rem;
   line-height: 1.5;
@@ -28,7 +28,7 @@
   background-color: rgba(184, 184, 185, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: center; /* a ver */
+  align-items: center;
   text-align: center;
   padding: 0rem 0.94rem 2.8rem;
 }
@@ -48,7 +48,7 @@
   font-family: Rubik;
   font-size: 1.4rem;
   line-height: 2.05;
-  color: var(--brand-color-bluegreen);
+  color: $brandcolorbluegreen;
   align-self: center;
 }
 
