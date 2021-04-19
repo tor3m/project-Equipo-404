@@ -1,5 +1,77 @@
-.page__header {
+.hero {
+  width: 100%;
+  background-image: url(../IMG/laptop-336378__480.webp);
+  align-items: center;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding: 0 0 19.75rem;
+}
+
+.fixed {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  color: white;
+  width: 100%;
+}
+.header-height {
+  padding-top: 6.25rem;
+  margin-top: -6.25rem;
+}
+
+.navigation1 a:visited,
+.navigation1 a:hover,
+.navigation1 a:link,
+.navigation1 a:active {
+  color: white;
+}
+/*.navigation1 a{
+  color: white;
+}
+.navigation1 a:hover{
+  color: red;
+}
+.navigation1 a:visited{
+  color: green;
+}*/
+.head {
+  height: 3.75rem;
+  padding: 0.94rem 5rem;
+  background-color: var(--brand-color-bluegreen);
+  opacity: 0.9;
+  /*position: fixed;
+  top: 0;
+  z-index: 100;*/
+}
+
+.navigation1 {
+  height: 2.81rem;
+  background-color: var(--brand-color-aqua);
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*position: fixed;
+  z-index: 100;*/
+}
+
+.boxslogan {
+  background: white;
+  width: 18.13rem;
+  height: 5rem;
+  position: relative;
+  top: -2.88rem;
+  position: relative;
+  z-index: 99;
+  /*border: 5px solid grey;*/
+  line-height: 1.56rem;
+  font-size: 1.13rem;
+  right: -0.94rem;
+  text-align: center;
+  padding: 1.87rem 0.94rem;
+  color: var(--brand-color-black);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
