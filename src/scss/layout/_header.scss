@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  background-image:url(./assets/images/fondo.png);
+  background-image: url("/assets/images/fondo.png");
   align-items: center;
   text-align: center;
   font-family: "Rubik", sans-serif;
@@ -25,7 +25,7 @@
 .navigation1 a:hover,
 .navigation1 a:link,
 .navigation1 a:active {
-  color:$brandcolorwhite;
+  color: $brandcolorwhite;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@
 .head {
   height: 3.75rem;
   padding: 0.94rem 5rem;
-  background-color:$brandcolorbluegreen;
+  background-color: $brandcolorbluegreen;
   opacity: 0.9;
   /*position: fixed;
   top: 0;
@@ -50,7 +50,7 @@
 
 .navigation1 {
   height: 2.81rem;
-  background-color:$brandcoloraqua;
+  background-color: $brandcoloraqua;
   opacity: 0.9;
   display: flex;
   justify-content: space-around;
@@ -60,7 +60,7 @@
   z-index: 100;*/
 }
 .equipo {
-list-style-type: none;
+  list-style-type: none;
 }
 .boxslogan {
   background: white;
