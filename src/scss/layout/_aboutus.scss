@@ -1,0 +1,83 @@
+.Text-Style-6 {
+  font-family: Rubik;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--brand-color-bluegreen);
+}
+
+.Text-Style-4 {
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--brand-color-black);
+}
+
+.ContainerAboutUs {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0rem 0.94rem 2.8rem;
+}
+
+.TeamMember {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MemberDetails {
+  text-align: center;
+}
+
+.aboutUsTitle {
+  margin-bottom: 1.88rem;
+  margin-top: 1.88rem;
+}
+
+.aboutUsPhoto {
+  width: 11.25rem;
+  height: 11.25rem;
+  border-radius: 0.25rem;
+  border: solid 0.31rem rgba(0, 0, 0, 0.08);
+  margin-bottom: 0.94rem;
+}
+
+.aboutUsDescription {
+  margin-left: 0.94rem;
+  margin-right: 0.94rem;
+}
+
+.aboutUsLinks {
+  color: var(--brand-color-bluegreen);
+  padding-top: 0.94rem;
+  padding-bottom: 2.81rem;
+  height: 1.88rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboutUsLinks span {
+  margin: 0 10px;
+}
+
+.aboutUsLinks a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--brand-color-bluegreen);
+}
