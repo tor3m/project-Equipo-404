@@ -7,7 +7,7 @@
 }
 
 .SubtitleEquipo {
-  font-family: "Rubik", sans-serif;
+  font-family: $fontrubik;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2.8rem;
@@ -16,7 +16,7 @@
 }
 
 .HomeParagraph {
-  font-family: "Open Sans", sans-serif;
+  font-family: $fontopensans;
   color: $paragraphgray;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -34,7 +34,7 @@
 }
 
 .caja {
-  background: white;
+  background: $brandcolorwhite;
   width: 1.9rem;
   height: 1.9rem;
   position: relative;
@@ -45,7 +45,7 @@
 }
 
 .FortDebTitleStyle {
-  font-family: Rubik;
+  font-family: $fontrubik;
   font-size: 1.4rem;
   line-height: 2.05;
   color: $brandcolorbluegreen;
