@@ -19,7 +19,7 @@
   flex-direction: column;
   position: fixed;
   top: 0;
-  z-index:100;
+  z-index: 100;
   color: white;
   width: 100%;
 }
@@ -28,11 +28,11 @@
   margin-top: -6.25rem;
 }
 
-.navigation1 a:visited, 
-.navigation1 a:hover, 
-.navigation1 a:link, 
-.navigation1 a:active{
-    color: white;
+.navigation1 a:visited,
+.navigation1 a:hover,
+.navigation1 a:link,
+.navigation1 a:active {
+  color: white;
 }
 /*.navigation1 a{
   color: white;
@@ -254,10 +254,10 @@ a:active {
   padding-bottom: 1.88rem;
 }
 
-.navigation2 a:visited, 
-.navigation2 a:hover, 
-.navigation2 a:link, 
-.navigation2 a:active{ 
+.navigation2 a:visited,
+.navigation2 a:hover,
+.navigation2 a:link,
+.navigation2 a:active {
   color: var(--brand-p-color);
 }
 
@@ -268,7 +268,7 @@ a:active {
 /* tablet version */
 
 @media all and (min-width: 48rem) {
-  .fixed{
+  .fixed {
     flex-direction: row;
   }
   .head {
@@ -278,23 +278,21 @@ a:active {
     flex-direction: flex-start;
   }
   .header-height {
-  padding-top: 3.438rem;
-  margin-top: -3.125rem;
-}
+    padding-top: 3.438rem;
+    margin-top: -3.125rem;
+  }
   .navigation1 {
     background-color: var(--brand-color-bluegreen);
     height: 3.75rem;
     display: flex;
     justify-content: flex-end;
     padding-right: 1.88rem;
-    flex-grow:1;
+    flex-grow: 1;
   }
 
-.navigation1 li 
-{
-padding: 0 20px;
-
-}
+  .navigation1 li {
+    padding: 0 20px;
+  }
 
   .boxslogan {
     width: 27.56rem;
