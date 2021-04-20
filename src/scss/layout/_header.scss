@@ -1,6 +1,5 @@
 .hero {
   width: 100%;
-  /*background-image:url(./assets/images/fondo.png);*/
   background-image: url("/assets/images/fondo.png");
   align-items: center;
   text-align: center;
@@ -81,3 +80,45 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
+/* tablet version */
+
+@media all and (min-width: 48rem) {
+  .fixed {
+    flex-direction: row;
+  }
+  .head {
+    font-size: 1rem;
+    line-height: 1.88rem;
+    display: flex;
+    flex-direction: flex-start;
+  }
+  .header-height {
+    padding-top: 3.438rem;
+    margin-top: -3.125rem;
+  }
+  .navigation1 {
+    background-color: $brandcolorbluegreen;
+    height: 3.75rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.88rem;
+    flex-grow: 1;
+  }
+
+  .navigation1 li {
+    padding: 0 20px;
+  }
+
+  .boxslogan {
+    width: 27.56rem;
+    transform: translate();
+    top: -80px;
+    text-align: left;
+    padding-left: 1.88rem;
+    padding-bottom: 0, 94rem;
+    padding-top: 0.94rem;
+    padding-right: 1.88rem;
+    opacity: 0.8;
+  }
+}
+/*Desktop Version*/

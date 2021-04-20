@@ -42,3 +42,56 @@
 .logo-footer {
   width: 7.24rem;
 }
+
+/* tablet version */
+@media all and (min-width: 48rem) {
+  
+  .footer {
+    flex-direction: row;
+    align-items: space-between;
+    padding: 0 2.81rem;
+    position: relative;
+  }
+
+  .navigation2 {
+    text-align: right;
+    line-height: 2.14rem;
+    padding: 1.5rem 0 3.5rem 0;
+  }
+
+  .copy {
+    position: absolute;
+    left: 2.81rem;
+    top: 1.88rem;
+  }
+
+  .logo-footer {
+    order: -2;
+    padding-top: 4.06rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+/*Desktop Version*/
+
+@media all and (min-width: 75rem) {
+  
+  .footer {
+    padding: 0 8.63rem;
+  }
+
+  .navigation2 {
+    padding: 1.5rem 0 2.94rem 0;
+  }
+
+  .copy {
+    left: 8.63rem;
+    top: 1.88rem;
+  }
+
+  .logo-footer {
+    order: -2;
+    padding-top: 4.06rem;
+    padding-bottom: 3.18rem;
+  }
+}
