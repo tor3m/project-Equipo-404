@@ -1,0 +1,76 @@
+.contact {
+  padding: 0 0.94rem;
+}
+
+.contact--title {
+  font-family: $fontrubik;
+  font-size: 1.5 rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 2.81rem;
+  color: $brandcolorbluegreen;
+  padding: 1.88rem 1.88rem 0 1.88rem;
+}
+.contact--paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0.94rem 0;
+
+  &__text {
+    font-family: $fontopensans;
+    color: $paragraphgray;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__required {
+    font-family: $fontopensans;
+    color: $paragraphgray;
+    font-size: 0.75rem;
+    text-align: center;
+
+    &-symbol {
+      color: $brandcoloraqua;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-top: 3.63rem;
+
+  &--fieldName {
+    font-family: $fontopensans;
+    color: $paragraphgray;
+    font-size: 0.75rem;
+  }
+  &--fieldSpace {
+    height: 2.81rem;
+    box-shadow: inset $brandcolorlightgray;
+    margin-top: 0.44rem;
+    margin-bottom: 0.81rem;
+  }
+  &--fieldSpaceComment {
+    box-shadow: inset $brandcolorlightgray;
+    margin-top: 0.44rem;
+    margin-bottom: 0.81rem;
+  }
+  &--button {
+    background-color: $brandcolorbluegreen;
+    height: 2.81rem;
+    border-radius: 0.25rem;
+  }
+}
+
+::placeholder {
+  font-family: $fontopensans;
+  color: $paragraphgray;
+  font-size: 0.75rem;
+  padding: 0.69rem 0 0 0.94rem;
+}
