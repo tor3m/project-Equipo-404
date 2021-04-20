@@ -20,10 +20,16 @@
   letter-spacing: normal;
   text-align: center;
   color: $brandcolorblack;
-  .aboutUsTitle {
-    margin-bottom: 1.88rem;
-    margin-top: 1.88rem;
-  }
+}
+
+.aboutUsTitle {
+  margin-bottom: 1.88rem;
+  margin-top: 1.88rem;
+  font-family: rubik;
+  font-weight: 500;
+  line-height: 1.88;
+  color: $brandcolorbluegreen;
+  font-size: 1.5rem;
 }
 
 .ContainerAboutUs {
@@ -70,7 +76,11 @@
   & span {
     margin: 0 10px;
   }
-
+  .link:after {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 5px;
+  }
   & a,
   a:link,
   a:visited,
