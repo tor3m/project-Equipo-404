@@ -1,0 +1,52 @@
+<article class="contact">
+  <h3 class="contact--title">CONTACTO</h3>
+  <section class="contact--paragraph">
+    <p class="contact--paragraph__text">
+      Dile adiós al error y hola al 404. Si quieres trabajar con nosotras o
+      tienes dudas sobre nuestros servicios, completa este formulario y nos
+      comunicaremos a la brevedad.
+    </p>
+    <p class="contact--paragraph__required">
+      Todos los campos marcados con
+      <span class="contact--paragraph__required-symbol">*</span> son
+      obligatorios.
+    </p>
+  </section>
+
+  <form class="form" action="/contact" method="post">
+    <label class="form--fieldName" for="fullName">Nombre completo </label>
+    <input
+      class="form--fieldSpace"
+      placeholder="Nombre"
+      type="text"
+      id="fullName"
+      required
+    />
+    <label class="form--fieldName" for="email">Email </label>
+    <input
+      class="form--fieldSpace"
+      placeholder="nombre.apellidos@mail.com"
+      type="email"
+      id="email"
+      required
+    />
+    <label class="form--fieldName" for="phone">Teléfono</label>
+    <input
+      class="form--fieldSpace"
+      placeholder="Ej: 123456789"
+      id="phone"
+      type="tel"
+    />
+    <label class="form--fieldName" for="message">Mensaje</label>
+    <textarea
+      class="form--fieldSpaceComment"
+      placeholder="¿Qué necesitas?"
+      id="message"
+      rows="8"
+      cols="80"
+      required
+    ></textarea>
+    <label for="button"></label>
+    <input class="form--button" type="submit" id="button" value="Enviar" />
+  </form>
+</article>
