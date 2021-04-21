@@ -29,6 +29,12 @@
   align-items: center;
   padding: 0 0 0.94rem 0;
 
+  @media  all and  (min-width: 768px) {
+
+  padding: 0 10.19rem;
+
+  }
+
   &__text {
     font-family: $fontopensans;
     color: $paragraphgray;
@@ -55,6 +61,12 @@
   justify-content: space-around;
   align-items: stretch;
   padding-top: 3.63rem;
+
+  @media  all and  (min-width: 768px) {
+
+  padding: 0 10.19rem;
+
+  }
 
   &--fieldName {
     font-family: $fontopensans;
@@ -83,9 +95,14 @@
     font-weight: 600;
     border-style: none;
     margin-bottom: 3.75rem;
-  }
-}
 
+   @media  all and  (min-width: 768px) {
+
+   width:12.88rem;
+   margin-right: 10.19rem ;
+        }
+    }
+}
 ::placeholder {
   font-family: $fontopensans;
   color: $paragraphgray;
