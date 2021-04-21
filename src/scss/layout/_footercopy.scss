@@ -2,11 +2,12 @@
   width: 100%;
   display:grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 20px 60px 1fr;
   text-align: center;
   padding: 1.87rem 0 2.81rem 0;
   border-top: 1px solid $brandcolorlightgray;
-  border: 1px solid red;
+  row-gap: 20px;
+  
   
 }
 .copy {
@@ -16,8 +17,6 @@
   font-size: 0.88rem;
   line-height: 1.43;
   padding-bottom: 1.25rem;
-  border: solid 1px red;
-
 }
 .navigation2 {
   font-family: "Open Sans", sans-serif;
@@ -29,7 +28,6 @@
   text-align: center;
   padding-bottom: 1.88rem;
   list-style-type: none;
-  border: solid 1px red;
 }
 .menu-footer {
   list-style-type: none;
@@ -44,7 +42,6 @@
 
 .logo-footer {
   width: 7.24rem;
-  border: solid 1px red;
   display: block;
   text-align: center;
   margin: auto;
