@@ -1,6 +1,8 @@
 .hero {
   width: 100%;
-  background-image: url("/assets/images/fondo.png");
+  background-image: url("/assets/images/team-404.png");
+  background-size: cover;
+  background-position: center center;
   align-items: center;
   text-align: center;
   font-family: "Rubik", sans-serif;
@@ -83,6 +85,9 @@
 /* tablet version */
 
 @media all and (min-width: 48rem) {
+  .hero {
+    height: 421px;
+  }
   .fixed {
     flex-direction: row;
   }
@@ -122,3 +127,9 @@
   }
 }
 /*Desktop Version*/
+@media all and (min-width: 75rem) {
+  .hero {
+    background-image: url("/assets/images/team.png");
+    background-size: auto;
+  }
+}
