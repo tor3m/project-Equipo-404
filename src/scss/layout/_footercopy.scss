@@ -1,19 +1,17 @@
 .footer {
   width: 100%;
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 20px 60px 1fr;
   text-align: center;
   padding: 1.87rem 0 2.81rem 0;
   border-top: 1px solid $brandcolorlightgray;
   row-gap: 20px;
-  
-  
 }
 .copy {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  color:$brandcolorlightgray;
+  color: $brandcolorlightgray;
   font-size: 0.88rem;
   line-height: 1.43;
   padding-bottom: 1.25rem;
@@ -21,7 +19,7 @@
 .navigation2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  color:$paragraphgray;
+  color: $paragraphgray;
   opacity: 0.75;
   font-size: 0.88rem;
   line-height: 1.25rem;
@@ -36,7 +34,7 @@
 .navigation2 a:hover,
 .navigation2 a:link,
 .navigation2 a:active {
-  color:$paragraphgray;
+  color: $paragraphgray;
   text-decoration: none;
 }
 
@@ -49,7 +47,6 @@
 
 /* tablet version */
 @media all and (min-width: 48rem) {
-  
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,7 +58,7 @@
   .navigation2 {
     text-align: right;
     line-height: 2.14rem;
-   /* padding: 1.5rem 0 3.5rem 0;*/
+    /* padding: 1.5rem 0 3.5rem 0;*/
     grid-row: span 2;
     margin-right: 45px;
     margin-top: 24px;
@@ -84,18 +81,15 @@
     margin-top: 15px;
     margin-bottom: 60px;
     margin-left: 45px;
-
-    
   }
 }
 
 /*Desktop Version*/
 
 @media all and (min-width: 75rem) {
-  
-  .footer {
+  /*.footer {
     padding: 0 8.63rem;
-  }
+  }*/
 
   .navigation2 {
     /*padding: 1.5rem 0 2.94rem 0;*/
