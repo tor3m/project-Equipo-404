@@ -79,11 +79,14 @@
     box-shadow: inset $brandcolorlightgray;
     margin-top: 0.44rem;
     margin-bottom: 0.81rem;
+    padding-left: 15px;
   }
   &--fieldSpaceComment {
     box-shadow: inset $brandcolorlightgray;
     margin-top: 0.44rem;
     margin-bottom: 0.81rem;
+    padding: 0.69rem 0 0 0;
+    padding-left: 15px;
   }
   &--button {
     background-color: $brandcolorbluegreen;
@@ -106,5 +109,5 @@
   font-family: $fontopensans;
   color: $paragraphgray;
   font-size: 0.75rem;
-  padding: 0.69rem 0 0 0.94rem;
+  padding: 0.69rem 0 0 0;
 }
