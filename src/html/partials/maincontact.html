@@ -14,7 +14,10 @@
   </section>
 
   <form class="form" action="/contact" method="post">
-    <label class="form--fieldName" for="fullName">Nombre completo </label>
+    <label class="form--fieldName" for="fullName"
+      >Nombre completo
+      <span class="contact--paragraph__required-symbol">*</span>
+    </label>
     <input
       class="form--fieldSpace"
       placeholder="Nombre"
@@ -22,7 +25,9 @@
       id="fullName"
       required
     />
-    <label class="form--fieldName" for="email">Email </label>
+    <label class="form--fieldName" for="email"
+      >Email <span class="contact--paragraph__required-symbol">*</span></label
+    >
     <input
       class="form--fieldSpace"
       placeholder="Correo electrónico"
@@ -37,7 +42,9 @@
       id="phone"
       type="tel"
     />
-    <label class="form--fieldName" for="message">Mensaje</label>
+    <label class="form--fieldName" for="message"
+      >Mensaje <span class="contact--paragraph__required-symbol">*</span></label
+    >
     <textarea
       class="form--fieldSpaceComment"
       placeholder="¿Qué necesitas?"
