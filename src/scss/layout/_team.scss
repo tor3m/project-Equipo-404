@@ -52,38 +52,44 @@
   align-self: center;
 }
 
-.DebilidadesStyle {
-  margin-top: 1.88rem;
-}
-
 @media all and (min-width: 48rem) {
   .ContainerEquipo {
     width: 100%;
-    padding: 1.87rem 2.81rem;
+    padding: 0 2.81rem 2.75rem 2.81rem;
   }
 
   .ContainerFortDeb {
-    flex-direction: row;
-    justify-content: space-around;
     position: relative;
+    padding: 2.81rem 2.81rem 3.75rem 2.81rem;
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat (2, 1fr);
+    grid-template:
+      "strenghtTitle weaknessTitle"
+      "StrenghtParagraph weakParagraph";
   }
-
+  .StrenghtTitle {
+    grid-area: strenghtTitle;
+  }
+  .StrenghtParagraph {
+    grid-area: StrenghtParagraph;
+  }
+  .DebilidadesStyle {
+    grid-area: weaknessTitle;
+  }
+  .WeakParagraph {
+    grid-area: weakParagraph;
+  }
   .Fortalezas {
-    width: 50%;
-    padding-right: 1.88rem;
-    display: flex;
-    flex-direction: column;
+    padding-right: 0.94rem;
   }
   .Debilidades {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+    padding-left: 0.94rem;
   }
   .caja {
     position: absolute;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
+    left: 50%;
+    right: 50%;
   }
 }
 
@@ -102,6 +108,9 @@
     padding-right: 8.68rem;
   }
   .Fortalezas {
-    padding-right: 2.81rem;
+    padding-right: 1.4rem;
+  }
+  .Debilidades {
+    padding-left: 1.4rem;
   }
 }
