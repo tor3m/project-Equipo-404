@@ -101,6 +101,7 @@
     font-weight: 600;
     border-style: none;
     margin: 1.87rem 0 3.75rem 0;
+
     @media all and (min-width: 48rem) {
       width: 12.88rem;
       align-self: flex-end;
@@ -109,11 +110,23 @@
       width: 17.38rem;
     }
   }
-
+  .form--button:hover {
+    animation: button 1s ease;
+  }
   ::placeholder {
     font-family: $fontopensans;
     color: $paragraphgray;
     font-size: 0.75rem;
     padding: 0.69rem 0 0 0;
+  }
+  @keyframes button {
+    from {
+      background-color: $brandcolorbluegreen;
+      color: $brandcolorwhite;
+    }
+    to {
+      background-color: $brandcolorlightgray;
+      color: $brandcolorbluegreen;
+    }
   }
 }
