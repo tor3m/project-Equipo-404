@@ -13,47 +13,21 @@
     </p>
   </section>
 
-  <form class="form" action="/contact" method="post">
-    <label class="form--fieldName" for="fullName"
-      >Nombre completo
+  <form class="form" action="//formspree.io/beatrizmendozahuertas@gmail.com" method="post">
+    <label class="form--fieldName" for="fullName">Nombre completo
       <span class="contact--paragraph__required-symbol">*</span>
     </label>
-    <input
-      class="form--fieldSpace"
-      placeholder="Nombre"
-      type="text"
-      id="fullName"
-      required
-    />
+    <input class="form--fieldSpace" placeholder="Nombre" type="text" id="fullName" required />
 
-    <label class="form--fieldName" for="email"
-      >Email <span class="contact--paragraph__required-symbol">*</span></label
-    >
-    <input
-      class="form--fieldSpace form--fieldSpace__mail"
-      placeholder="Correo electrónico"
-      type="email"
-      id="email"
-      required
-    />
+    <label class="form--fieldName" for="email">Email <span class="contact--paragraph__required-symbol">*</span></label>
+    <input class="form--fieldSpace form--fieldSpace__mail" placeholder="Correo electrónico" type="email" id="email"
+      required />
     <label class="form--fieldName" for="phone">Teléfono</label>
-    <input
-      class="form--fieldSpace form--fieldSpace__phone"
-      placeholder="Ej: 123456789"
-      id="phone"
-      type="tel"
-    />
-    <label class="form--fieldName" for="message"
-      >Mensaje <span class="contact--paragraph__required-symbol">*</span></label
-    >
-    <textarea
-      class="form--fieldSpaceComment"
-      placeholder="¿Qué necesitas?"
-      id="message"
-      rows="8"
-      cols="80"
-      required
-    ></textarea>
+    <input class="form--fieldSpace form--fieldSpace__phone" placeholder="Ej: 123456789" id="phone" type="tel" />
+    <label class="form--fieldName" for="message">Mensaje <span
+        class="contact--paragraph__required-symbol">*</span></label>
+    <textarea class="form--fieldSpaceComment" placeholder="¿Qué necesitas?" id="message" rows="8" cols="80"
+      required></textarea>
     <label for="button"></label>
     <input class="form--button" type="submit" id="button" value="Enviar" />
   </form>
