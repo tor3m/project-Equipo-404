@@ -43,6 +43,10 @@
   display: block;
   text-align: center;
   margin: auto;
+  &:hover {
+    transform: scale(2);
+    transition: transform ease 2s;
+  }
 }
 
 /* tablet version */
