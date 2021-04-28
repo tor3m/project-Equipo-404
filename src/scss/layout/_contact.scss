@@ -60,9 +60,11 @@
   justify-content: space-around;
   align-items: stretch;
   padding: 3.63rem 0.94rem 0 0.94rem;
+  position: relative;
 
   @media all and (min-width: 768px) {
     padding: 3.63rem 10.19rem 0 10.19rem;
+    position: relative;
   }
   @media all and (min-width: 1200px) {
     padding: 3.63rem 18.69rem 0 18.69rem;
@@ -79,14 +81,6 @@
     margin-top: 0.44rem;
     margin-bottom: 0.81rem;
     padding-left: 15px;
-    /*@media all and (min-width: 1200px) {
-      &__mail {
-        width: 24.69rem;
-      }
-      &__phone {
-        width: 10.12rem;
-      }
-    }*/
   }
   &--fieldSpaceComment {
     box-shadow: inset $brandcolorlightgray;
@@ -96,6 +90,7 @@
     padding-left: 15px;
   }
   &--button {
+    width: 100%;
     background-color: $brandcolorbluegreen;
     height: 2.81rem;
     border-radius: 0.25rem;
@@ -105,11 +100,11 @@
     font-size: 1rem;
     font-weight: 600;
     border-style: none;
-    margin-top: 1.87rem;
-    margin-bottom: 3.75rem;
-
+    margin: 1.87rem 0 3.75rem 0;
     @media all and (min-width: 768px) {
-      width: 12.88rem;
+      width: 290px;
+      position: relative;
+      left: 45%;
     }
   }
 }
