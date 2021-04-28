@@ -57,6 +57,9 @@
   border-radius: 0.25rem;
   border: solid 0.31rem rgba(0, 0, 0, 0.08);
   margin-bottom: 0.94rem;
+  &:hover {
+    border: 10px solid $brandcolorbluegreen;
+  }
 }
 
 .aboutUsDescription {
