@@ -62,10 +62,10 @@
   padding: 3.63rem 0.94rem 0 0.94rem;
 
   @media all and (min-width: 768px) {
-    padding: 0 10.19rem;
+    padding: 3.63rem 10.19rem 0 10.19rem;
   }
   @media all and (min-width: 1200px) {
-    padding: 0 18.69rem;
+    padding: 3.63rem 18.69rem 0 18.69rem;
   }
 
   &--fieldName {
@@ -79,6 +79,14 @@
     margin-top: 0.44rem;
     margin-bottom: 0.81rem;
     padding-left: 15px;
+    @media all and (min-width: 1200px) {
+      &__mail {
+        width: 24.69rem;
+      }
+      &__phone {
+        width: 10.12rem;
+      }
+    }
   }
   &--fieldSpaceComment {
     box-shadow: inset $brandcolorlightgray;
@@ -97,7 +105,7 @@
     font-size: 1rem;
     font-weight: 600;
     border-style: none;
-    margin-top: 0.88rem;
+    margin-top: 1.87rem;
     margin-bottom: 3.75rem;
 
     @media all and (min-width: 768px) {
