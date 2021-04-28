@@ -11,7 +11,7 @@
 .copy {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  color:$brandcolorlightgray;
+  color: $brandcolorlightgray;
   font-size: 0.88rem;
   line-height: 1.43;
   padding-bottom: 1.25rem;
@@ -19,14 +19,13 @@
 .navigation2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  color:$paragraphgray;
+  color: $paragraphgray;
   opacity: 0.75;
   font-size: 0.88rem;
   line-height: 1.25rem;
   text-align: center;
   padding-bottom: 1.88rem;
   list-style-type: none;
-  
 }
 .menu-footer {
   list-style-type: none;
@@ -35,7 +34,7 @@
 .navigation2 a:hover,
 .navigation2 a:link,
 .navigation2 a:active {
-  color:$paragraphgray;
+  color: $paragraphgray;
   text-decoration: none;
 }
 
@@ -45,7 +44,6 @@
 
 /* tablet version */
 @media all and (min-width: 48rem) {
-  
   .footer {
     flex-direction: row;
     align-items: space-between;
@@ -75,7 +73,6 @@
 /*Desktop Version*/
 
 @media all and (min-width: 75rem) {
-  
   .footer {
     padding: 0 8.63rem;
   }
