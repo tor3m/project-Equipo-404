@@ -13,22 +13,23 @@
     </p>
   </section>
 
-  <form class="form" action="//formspree.io/beatrizmendozahuertas@gmail.com" method="post">
+  <form class="form" action="https://formspree.io/f/meqveeoq" method="post">
     <label class="form--fieldName" for="fullName">Nombre completo
       <span class="contact--paragraph__required-symbol">*</span>
     </label>
-    <input class="form--fieldSpace" placeholder="Nombre" type="text" id="fullName" required />
+    <input class="form--fieldSpace" placeholder="Nombre" name="name" type="text" id="fullName" required />
 
     <label class="form--fieldName" for="email">Email <span class="contact--paragraph__required-symbol">*</span></label>
-    <input class="form--fieldSpace form--fieldSpace__mail" placeholder="Correo electrónico" type="email" id="email"
-      required />
+    <input class="form--fieldSpace form--fieldSpace__mail" placeholder="Correo electrónico" name="email" type="email"
+      id="email" required />
     <label class="form--fieldName" for="phone">Teléfono</label>
-    <input class="form--fieldSpace form--fieldSpace__phone" placeholder="Ej: 123456789" id="phone" type="tel" />
+    <input class="form--fieldSpace form--fieldSpace__phone" placeholder="Ej: 123456789" id="phone" name="tel"
+      type="tel" />
     <label class="form--fieldName" for="message">Mensaje <span
         class="contact--paragraph__required-symbol">*</span></label>
-    <textarea class="form--fieldSpaceComment" placeholder="¿Qué necesitas?" id="message" rows="8" cols="80"
-      required></textarea>
+    <textarea class="form--fieldSpaceComment" placeholder="¿Qué necesitas?" name="mesage" id="message" rows="8"
+      cols="80" required></textarea>
     <label for="button"></label>
-    <input class="form--button" type="submit" id="button" value="Enviar" />
+    <input class="form--button" type="submit" id="button" name="send" value="Enviar" />
   </form>
 </article>
