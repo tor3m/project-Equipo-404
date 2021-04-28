@@ -51,6 +51,9 @@
   color: $brandcolorbluegreen;
   align-self: center;
 }
+.DebilidadesStyle {
+  padding-top: 1.88rem;
+}
 
 @media all and (min-width: 48rem) {
   .ContainerEquipo {
@@ -76,6 +79,7 @@
   }
   .DebilidadesStyle {
     grid-area: weaknessTitle;
+    padding-top: 0;
   }
   .WeakParagraph {
     grid-area: weakParagraph;
