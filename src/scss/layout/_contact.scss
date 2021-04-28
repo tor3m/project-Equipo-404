@@ -81,6 +81,7 @@
     margin-bottom: 0.81rem;
     padding-left: 15px;
   }
+
   &--fieldSpaceComment {
     box-shadow: inset $brandcolorlightgray;
     margin-top: 0.44rem;
@@ -100,16 +101,19 @@
     font-weight: 600;
     border-style: none;
     margin: 1.87rem 0 3.75rem 0;
-    /* @media all and (min-width: 768px) {
-      width: 290px;
-      position: relative;
-      left: 45%;
-    }*/
+    @media all and (min-width: 48rem) {
+      width: 12.88rem;
+      align-self: flex-end;
+    }
+    @media all and (min-width: 75rem) {
+      width: 17.38rem;
+    }
   }
-}
-::placeholder {
-  font-family: $fontopensans;
-  color: $paragraphgray;
-  font-size: 0.75rem;
-  padding: 0.69rem 0 0 0;
+
+  ::placeholder {
+    font-family: $fontopensans;
+    color: $paragraphgray;
+    font-size: 0.75rem;
+    padding: 0.69rem 0 0 0;
+  }
 }
