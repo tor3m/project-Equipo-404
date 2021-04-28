@@ -13,16 +13,16 @@ http://beta.adalab.es/project-promo-m-module-1-team-8/
 
 ¡Y ahora vamos a maquetar!
 
-- Por un lado:
+Por un lado:
 
 * Hemos usado una estructura ordenada de ficheros y carpetas, los cuales están enlazados con sus respectivos ficheros.
 
-- En cuanto a la maquetación con HTML:
+En cuanto a la maquetación con HTML:
 
 * Todo el código está perfectamente indentado.
 * La sintáxis y semántica está estructurada desde nuestro criterio, de una manera fácil de entender.
 
-- Respecto a la maquetación con CSS/Sass:
+Respecto a la maquetación con CSS/Sass:
 
 * Todo el código está perfectamente indentado.
 * Hemos dividio el Sass en varios partials para que nos resulte más cómodo y ordenado, y los hemos enlazado correctamente al fichero principal.
