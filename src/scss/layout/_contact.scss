@@ -79,14 +79,14 @@
     margin-top: 0.44rem;
     margin-bottom: 0.81rem;
     padding-left: 15px;
-    @media all and (min-width: 1200px) {
+    /*@media all and (min-width: 1200px) {
       &__mail {
         width: 24.69rem;
       }
       &__phone {
         width: 10.12rem;
       }
-    }
+    }*/
   }
   &--fieldSpaceComment {
     box-shadow: inset $brandcolorlightgray;
