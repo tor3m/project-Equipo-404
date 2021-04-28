@@ -64,7 +64,6 @@
 
   @media all and (min-width: 768px) {
     padding: 3.63rem 10.19rem 0 10.19rem;
-    position: relative;
   }
   @media all and (min-width: 1200px) {
     padding: 3.63rem 18.69rem 0 18.69rem;
@@ -101,11 +100,11 @@
     font-weight: 600;
     border-style: none;
     margin: 1.87rem 0 3.75rem 0;
-    @media all and (min-width: 768px) {
+    /* @media all and (min-width: 768px) {
       width: 290px;
       position: relative;
       left: 45%;
-    }
+    }*/
   }
 }
 ::placeholder {
