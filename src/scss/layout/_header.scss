@@ -18,36 +18,33 @@
   color: white;
   width: 100%;
 }
+
 .header-height {
   padding-top: 6.25rem;
   margin-top: -6.25rem;
 }
 
 .navigation1 a:visited,
-.navigation1 a:hover,
 .navigation1 a:link,
 .navigation1 a:active {
   color: $brandcolorwhite;
   text-decoration: none;
 }
 
-/*.navigation1 a{
-  color: white;
-}
 .navigation1 a:hover{
-  color: red;
+  color: black;
 }
-.navigation1 a:visited{
-  color: green;
-}*/
+
 .head {
   height: 3.75rem;
   padding: 0.94rem 5rem;
   background-color: $brandcolorbluegreen;
-  opacity: 0.9;
-  /*position: fixed;
-  top: 0;
-  z-index: 100;*/
+  opacity: 0.9; 
+  transition: font-size ease 2;
+}
+
+.head:hover {
+ font-size: 25px;
 }
 
 .navigation1 {
@@ -58,13 +55,12 @@
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  /*position: fixed;
-  z-index: 100;*/
 }
 
 .equipo {
   list-style-type: none;
 }
+
 .boxslogan {
   background: white;
   width: 18.13rem;
@@ -73,7 +69,6 @@
   top: -2.88rem;
   position: relative;
   z-index: 99;
-  /*border: 5px solid grey;*/
   line-height: 1.56rem;
   font-size: 1.13rem;
   right: -0.94rem;
@@ -82,7 +77,13 @@
   color: var(--brand-color-black);
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  transition: box-shadow ease 3;
 }
+
+.boxslogan:hover {
+  box-shadow: 0px 12px 15px $brandcolorbluegreen;
+}
+
 /* tablet version */
 
 @media all and (min-width: 48rem) {
