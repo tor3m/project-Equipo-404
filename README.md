@@ -9,7 +9,7 @@ Maribel Torres
 Beatriz Mendoza
 
 Antes de comenzar con la maquetación hemos creado un repositorio en GitHub, y una vez creado y clonado hemos añadido la template del Starter Kit de Adalab y lo hemos publicado con el GitHub Pages.
-http://beta.adalab.es/project-promo-m-module-1-team-8/
+ https://tor3m.github.io/project-Equipo-404/
 
 ¡Y ahora vamos a maquetar!
 
