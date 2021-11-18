@@ -54,10 +54,9 @@ Please contribute using [GitHub](https://docs.github.com/en/get-started/quicksta
 
 
 ## 🦸 Autors
-
+* Maribel Torres
 * Silvia España
 * Yosiris Mariñez
-* Maribel Torres
 * Beatriz Mendoza
 
 
