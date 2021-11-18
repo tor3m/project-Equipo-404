@@ -3,7 +3,8 @@
 
 ![404](https://user-images.githubusercontent.com/81690198/142512599-4dd048fa-90e3-46e9-b1db-2fba766a73b1.png)
 
-##  TEAM PROJECT 404 "Esta no es la página que buscabas...pero sí tu equipo"
+## 404 TEAM PROJECT - "Esta no es la página que buscabas...pero sí tu equipo"
+
 Developing a web page according to a design given in Zeplin. Web responsive
 
 ## 💻 Technologies
